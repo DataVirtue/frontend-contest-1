@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tokyo</h1>
+      <p><emphasizeTokyo Tokyo Old meets New</p>
+    </header>
+    <hr/>
+    <nav>
+      <a href="#description">Desciption</a>
+      <a href="#attraction">Attractions</a>
+      <a href="#statistics">Statistics</a>
+      <a href="#feedback">Feedback</a>
+      <a href="#quotes">Quotes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <br />
+    <hr>
+    <section id="description">
+      <h2>Tokyo: A Vibrant Fusion of Tradition and Innovation</h2>
+      <img
+        src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2036&q=80"
+        width="500px"
+        height="500px"
+      />
+      <p>
+        Tokyo is the capital city of Japan and one of the world's most populous
+        and vibrant metropolises. Located on the eastern coast of Honshu,
+        Japan's largest island, Tokyo is known for its unique blend of modernity
+        and tradition
+      </p>
+    </section>
+    <hr/>
+    <section id="attraction">
+      <h2>Must Visit</h2>
+      <dl type="number">
+        <dt><strong> Tokyo Disneyland and Tokyo DisneySea:</strong></dt>
+        <dd>
+          These two world-renowned theme parks offer a magical experience for
+          visitors of all ages with a wide array of attractions, shows, and
+          entertainment.
+        </dd>
+        <br />
+        <dt><strong> Akihabara:</strong></dt>
+        <dd>
+          Dubbed "Electric Town," Akihabara is a haven for tech and anime
+          enthusiasts. You can find electronics, manga, anime, video games, and
+          various themed cafes here.
+        </dd>
+        <br />
+        <dt><strong>Senso-ji Temple:</strong></dt>
+        <dd>
+          Located in the historic Asakusa district, Senso-ji is Tokyo's oldest
+          temple and one of its most visited. The vibrant Nakamise-dori shopping
+          street leads to the temple's imposing Thunder Gate (Kaminarimon).
+        </dd>
+      </dl>
+    </section>
+    <hr/>
+
+    <section id="statistics">
+      <h2>Things to Know</h2>
+      <table border="1">
+        <thead>
+          <th>Statistics</th>
+          <th>Value</th>
+        </thead>
+        <tr>
+          <td>Population</td>
+          <td>Over 13 million (within 23 wards)</td>
+        </tr>
+        <tr>
+          <td>Official Language</td>
+          <td>Japanese</td>
+        </tr>
+        <tr>
+          <td>Climate</td>
+          <td>Humid subtropical with four seasons</td>
+        </tr>
+        <tr>
+          <td>Notable Seasons</td>
+          <td>Cherry blossom season in spring, mild winters</td>
+        </tr>
+      </table>
+    </section>
+    <hr/>
+    <section id="feedback">
+      <h2>Citizen Feedback Form</h2>
+      <form>
+        <label for="first_name">First Name</label>
+        <input type="text" name="first name" id="first_name" required />
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last name" id="last_name" required />
+        <br />
+        <br />
+        <label for="email">Email Id</label>
+        <input type="email" id="email" name="emailId" required />
+        <label for="number">Contact Number</label>
+        <input type="tel" id="number" name="contact_number" required />
+        <br />
+        <br />
+        <label for="wards">Select a Tokyo Special Ward:</label>
+        <select id="wards" name="wards" required>
+          <option value="" disabled selected>Select your Ward</option>
+          <option value="adachi">Adachi</option>
+          <option value="arakawa">Arakawa</option>
+          <option value="bunkyo">Bunkyō</option>
+          <option value="chiyoda">Chiyoda</option>
+          <option value="chuo">Chūō</option>
+          <option value="edogawa">Edogawa</option>
+          <option value="itabashi">Itabashi</option>
+          <option value="katsushika">Katsushika</option>
+          <option value="kita">Kita</option>
+          <option value="koto">Kōtō</option>
+          <option value="meguro">Meguro</option>
+          <option value="minato">Minato</option>
+          <option value="nakano">Nakano</option>
+          <option value="nerima">Nerima</option>
+          <option value="ota">Ōta</option>
+          <option value="setagaya">Setagaya</option>
+          <option value="shibuya">Shibuya</option>
+          <option value="shinagawa">Shinagawa</option>
+          <option value="shinjuku">Shinjuku</option>
+          <option value="suginami">Suginami</option>
+          <option value="sumida">Sumida</option>
+          <option value="taito">Taitō</option>
+          <option value="toshima">Toshima</option>
+        </select>
+        <br />
+        <br />
+        <label for="feedback_text">Feedback:</label>
+        <br />
+        <br />
+        <textarea
+          id="feedback_text"
+          name="feedback text"
+          cols="40"
+          rows="10"
+          required
+        ></textarea>
+        <br />
+        <br />
+        <input type="checkbox" name="newsletter" id="newsletter_subscribe" />
+        <label for="newsletter_subscribe">Subcribe to our new Letter</label>
+        <br />
+        <br />
+        <button>Submit</button>
+      </form>
+    </section>
+    <hr/>
+    <section id="quotes">
+      <h2>What do People Have to Say</h2>
+      <ul>
+        <li>
+          Look at London or Paris: they're both filthy. You don't get that in
+          Tokyo. The proud residents look after their city.
+          <cite> ~Tadao Ando</cite>
+        </li>
+        <br />
+        <li>
+          Here in Tokyo they're not just hard working but almost violently
+          cheerful. Down at the Peacock, the change flows like tap water. The
+          women behind the registers bow to you, and I don’t mean that they
+          lower their heads a little, the way you might if passing someone on
+          the street. These cashiers press their hands together and bend from
+          the waist. Then they say what sounds to me like “We, the people of
+          this store, worship you as we might a god.”
+          <cite> ~David Sedaris, When You Are Engulfed in Flames</cite>
+        </li>
+        <br />
+        <li>
+          I always had a sense that I would fall in love with Tokyo. In
+          retrospect I guess it’s not that surprising. I was of the generation
+          that had grown up in the ’80s when Japan was ascendant (born aloft by
+          a bubble whose burst crippled its economy for decades), and I’d fed on
+          a steady diet of anime and samurai films.”
+          <cite> ~Junot Diaz</cite>
+        </li>
+        <br>
+        <li>
+          Tokyo was an origami city folded over and over until something was
+          made of virtually nothing
+          <cite> ~Christopher Barzak, The Love We Share Without Knowing</cite>
+        </li>
+      </ul>
+    </section>
+    <hr/>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+            <p>Tokyo Tourism Office<br>
+            5-24-55 Sendagaya, Shibuya-ku, Tokyo <br>
+            Email: <a>info@tokyotourism.jp</a> <br>
+            Phone: 03 6121-8111</p>
+            </p>
+        </address>
+    </section>
+    <hr>
+    <section></section>
+  </body>
+</html>
